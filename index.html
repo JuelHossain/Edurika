@@ -128,15 +128,17 @@
     <!-- carousel start  -->
     <section
       id="controls-carousel"
-      class="relative md:container md:mx-auto lg:mt-5"
+      class="relative md:container md:mx-auto lg:mt-5 md:px-4"
       data-carousel="static"
     >
       <!-- Carousel wrapper -->
-      <div class="overflow-hidden relative h-96 md:h-[550px] xl:h-[800px]">
+      <div
+        class="overflow-hidden relative h-96 md:h-[550px] lg:h-[700px] xl:h-[800px]"
+      >
         <!-- Item 1 -->
         <div
           class="duration-700 ease-in-out absolute inset-0 transition-all transform -translate-x-full z-10"
-          data-carousel-item="active"
+          data-carousel-item=""
         >
           <!-- image  -->
           <img
@@ -146,17 +148,19 @@
           />
           <!-- some text  -->
           <div
-            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 gap-5 text-center"
+            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 md:p-20 lg:p-40 gap-5 md:gap-8 text-center"
           >
-            <h2 class="text-3xl font-bold">Get Started Digital Learning</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+            <h2 class="text-3xl md:text-5xl lg:text-7xl font-bold">
+              Get Started Digital Learning
+            </h2>
+            <p class="text-lg md:text-xl lg:text-2xl">
+              The digital transformation has completely opened up the field of
+              learning possibilities.
             </p>
             <!-- button  -->
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg md:text-xl lg:text-2xl px-5 lg:px-10 lg:py-4 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Get Started
             </button>
@@ -165,7 +169,7 @@
         <!-- Item 2 -->
         <div
           class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20"
-          data-carousel-item=""
+          data-carousel-item="active"
         >
           <!-- image  -->
           <img
@@ -175,17 +179,19 @@
           />
           <!-- some text  -->
           <div
-            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 gap-5 text-center"
+            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 md:p-20 lg:p-40 gap-5 md:gap-8 text-center"
           >
-            <h2 class="text-3xl font-bold">Get Started Digital Learning</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+            <h2 class="text-3xl md:text-5xl lg:text-7xl font-bold">
+              Start Learning Beyond
+            </h2>
+            <p class="text-lg md:text-xl lg:text-2xl">
+              Learn beyond the boundary. Learning is no longer restricted within
+              the walls of a classroom
             </p>
             <!-- button  -->
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg md:text-xl lg:text-2xl px-5 lg:px-10 lg:py-4 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Get Started
             </button>
@@ -204,17 +210,19 @@
           />
           <!-- some text  -->
           <div
-            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 gap-5 text-center"
+            class="absolute w-full h-full bg-black/50 text-white flex flex-col justify-center items-center p-10 md:p-20 lg:p-40 gap-5 md:gap-8 text-center"
           >
-            <h2 class="text-3xl font-bold">Get Started Digital Learning</h2>
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout.
+            <h2 class="text-3xl md:text-5xl lg:text-7xl font-bold">
+              Boost Your Learning Pace
+            </h2>
+            <p class="text-lg md:text-xl lg:text-2xl">
+              Learning is no longer restricted to the pace of an entire
+              classroom of students.
             </p>
             <!-- button  -->
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-lg md:text-xl lg:text-2xl px-5 lg:px-10 lg:py-4 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
             >
               Get Started
             </button>
@@ -278,17 +286,21 @@
     </section>
     <!-- carousel end  -->
 
-    <main class="m-2 md:container md:mx-auto flex flex-col gap-10 my-10">
+    <main
+      class="m-2 md:container md:mx-auto flex flex-col gap-10 lg:gap-20 my-10 lg:my-14 md:px-4"
+    >
       <!-- courses start  -->
-      <section>
+      <section id="courses">
         <!-- courses section title  -->
         <div
-          class="flex justify-center items-center flex-col text-center gap-2 p-5"
+          class="flex justify-center items-center flex-col text-center gap-2 p-5 md:p-10 lg:px-20"
         >
-          <h2 class="text-2xl font-bold">Discover Our Popular Courses</h2>
-          <p>
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+          <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold">
+            Discover Our Popular Courses
+          </h2>
+          <p class="lg:text-xl">
+            Digital content is the high quality academic material which is
+            delivered through technology. It is what students learn
           </p>
         </div>
         <!-- courses cards  -->
@@ -296,22 +308,24 @@
           <!-- card one  -->
           <a
             href="#"
-            class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-1.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-1.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Fundamental Of UI/UX Design
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
+                A UI, UX, and front-end web developer is responsible for
+                applying interactive and visual design principles on websites
               </p>
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
@@ -319,45 +333,52 @@
           <!-- card two  -->
           <a
             href="#"
-            class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-2.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-2.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Javascript Basic to advanced
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
+                A JavaScript developer is responsible for implementing the
+                front-end logic that defines the behavior of the visual elements
+                of a web application
               </p>
+
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
           </a>
           <!-- card three  -->
           <a
             href="#"
-            class="flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-3.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-3.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Fullstack Web Development
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Some quick example text to build on the card title and make up
-                the bulk of the card.
+                A full stack web developer is a person who can develop both
+                client and server software. In addition to mastering HTML and
+                CSS, he/she also knows how to: Program a browser
               </p>
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
@@ -365,22 +386,25 @@
           <!-- card four  -->
           <a
             href="#"
-            class="flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700 hidden md:flex"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-4.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-4.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Digital Marketing
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+                Digital marketers are in charge of driving brand awareness and
+                lead generation through all the digital channels — both free and
+                paid — that are at a company's disposal.
               </p>
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
@@ -388,22 +412,25 @@
           <!-- card five  -->
           <a
             href="#"
-            class="hidden md:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-5.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-5.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Photography Basic Rules
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+                Photographers tell stories through images they capture through
+                their cameras. They express their personalities and viewpoints
+                through their art.
               </p>
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
@@ -411,22 +438,24 @@
           <!-- card six  -->
           <a
             href="#"
-            class="hidden md:flex flex-col items-center bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+            class="flex flex-col bg-white rounded-lg border shadow-md md:flex-row hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
           >
-            <img
-              class="object-cover w-full h-96 rounded-t-lg md:h-auto md:w-48 md:rounded-none md:rounded-l-lg"
-              src="./images/course/course-6.png"
-              alt=""
-            />
-            <div class="flex flex-col justify-between p-4 leading-normal">
+            <div class="basis-1/3">
+              <img
+                class="object-cover w-full h-full rounded-t-lg md:rounded-none md:rounded-l-lg"
+                src="./images/course/course-6.png"
+                alt=""
+              />
+            </div>
+            <div class="flex flex-col p-4 leading-normal basis-2/3">
               <h5
                 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
                 Motion Graphics
               </h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Here are the biggest enterprise technology acquisitions of 2021
-                so far, in reverse chronological order.
+                Motion graphics designers, sometimes just called motion
+                designers, create artwork for the web, television or film.
               </p>
               <p class="text-blue-500 text-3xl font-semibold">Price: 20$</p>
             </div>
@@ -436,7 +465,7 @@
         <div class="text-center mt-5">
           <button
             type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md lg:text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             See All Courses
           </button>
@@ -445,10 +474,10 @@
       <!-- courses end  -->
 
       <!-- explore section start  -->
-      <section>
+      <section id="explore">
         <div class="flex-col md:flex-row flex">
           <!-- side image  -->
-          <div class="flex-1 max-h-xl">
+          <div class="flex-1 xl:h-[700px]">
             <img
               class="w-full h-full object-cover rounded-t-lg md:rounded-l-lg md:rounded-none"
               src="./images/oleg-ivanov-aVbR17HLZTg-unsplash (1).jpg"
@@ -458,54 +487,76 @@
 
           <!-- some text  -->
           <div
-            class="p-6 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 flex-1 rounded-b-lg md:rounded-none md:rounded-r-lg"
+            class="p-6 md:p-10 xl:px-16 bg-white border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 flex-1 rounded-b-lg md:rounded-none md:rounded-r-lg flex flex-col justify-center items-start"
           >
             <!-- heading  -->
             <a href="#">
               <h5
-                class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white"
+                class="mb-2 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight text-gray-900 dark:text-white"
               >
-                Explore The elearning Institute
+                Explore The eLearning Institute
               </h5>
             </a>
             <!-- paragraph  -->
-            <p class="mt-4 font-normal text-gray-700 dark:text-gray-400">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which...<span
-                class="text-blue-700"
-                >See More</span
-              >
+            <p
+              class="mt-4 font-normal text-gray-700 dark:text-gray-400 lg:text-xl"
+            >
+              The eLearning Institute is a virtual destination for professionals
+              in various arenas of higher education to meet ongoing professional
+              development needs and to gain access to the most current research
+              in academe.
+              <span class="text-blue-700 lg:hidden">...See More</span>
+            </p>
+            <p
+              class="hidden lg:block mt-4 font-normal text-gray-700 dark:text-gray-400 lg:text-xl"
+            >
+              The eLearning Institute is an excellent source for individuals to
+              publish the latest research and best practices in their respective
+              academic fields in higher education and to collaborate, create,
+              innovate, and share with other distinguished educational
+              professionals.
             </p>
             <!-- states  -->
             <div>
-              <dl class="flex flex-wrap">
-                <div class="flex flex-col p-4 text-center">
-                  <dt class="order-last text-lg font-medium text-gray-500">
+              <dl class="flex flex-wrap justify-self-start">
+                <div class="flex flex-col p-4 lg:p-6 xl:pl-0">
+                  <dt
+                    class="order-last text-lg lg:text-xl font-medium text-gray-500"
+                  >
                     Online Course
                   </dt>
 
-                  <dd class="text-3xl font-extrabold text-blue-600 md:text-5xl">
+                  <dd
+                    class="text-3xl font-extrabold text-blue-600 md:text-4xl lg:text-5xl"
+                  >
                     3.2k+
                   </dd>
                 </div>
 
-                <div class="flex flex-col p-4 text-center rounded-lg">
-                  <dt class="order-last text-lg font-medium text-gray-500">
+                <div class="flex flex-col p-4 lg:p-6 text-center rounded-lg">
+                  <dt
+                    class="order-last text-lg lg:text-xl font-medium text-gray-500"
+                  >
                     Expert member
                   </dt>
 
-                  <dd class="text-3xl font-extrabold text-blue-600 md:text-5xl">
+                  <dd
+                    class="text-3xl font-extrabold text-blue-600 md:text-4xl lg:text-5xl"
+                  >
                     600+
                   </dd>
                 </div>
 
                 <div class="flex flex-col p-4 text-center rounded-lg">
-                  <dt class="order-last text-lg font-medium text-gray-500">
+                  <dt
+                    class="order-last text-lg lg:text-xl font-medium text-gray-500"
+                  >
                     Rating & Review
                   </dt>
 
-                  <dd class="text-3xl font-extrabold text-blue-600 md:text-5xl">
+                  <dd
+                    class="text-3xl font-extrabold text-blue-600 md:text-4xl lg:text-5xl"
+                  >
                     1k+
                   </dd>
                 </div>
@@ -514,7 +565,7 @@
             <!-- button  -->
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-lg px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md lg:text-xl xl:text-2xl px-5 py-2.5 text-center inline-flex items-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
             >
               Read More
               <svg
@@ -538,23 +589,26 @@
 
       <!-- ready to join section start   -->
       <section
-        class="p-6 md:p-10 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-2 flex flex-col md:flex-row items-center text-center md:text-start md:justify-between container mx-auto bg-blue-700 text-white"
+        id="join"
+        class="p-6 md:p-16 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-2 flex flex-col lg:flex-row items-center text-center lg:text-start lg:justify-between container mx-auto bg-blue-700 text-white gap-3"
       >
-        <div class="md:w-1/2">
+        <div class="lg:w-1/2 md:px-16">
           <a href="#">
-            <h5 class="mb-2 text-2xl font-bold tracking-tight">
+            <h5
+              class="mb-2 lg:mb-5 text-2xl md:text-3xl lg:text-5xl font-bold tracking-tight"
+            >
               Ready to join?
             </h5>
           </a>
-          <p class="mb-3 font-normal dark:text-gray-400">
-            It is a long established fact that a reader will be distracted by
-            the readable content of a page when looking at its layout.
+          <p class="dark:text-gray-400 lg:text-xl">
+            This is where you’ll find all you need to know about eligibility,
+            preparing for tests and getting ready for your career in I.T
           </p>
         </div>
         <div>
           <!-- Modal toggle -->
           <button
-            class="block text-blue-700 dark:text-white bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-md px-5 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            class="block text-blue-700 dark:text-white bg-white hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg px-5 md:px-7 py-2 md:py-4 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 lg:text-2xl"
             type="button"
             data-modal-toggle="authentication-modal"
           >
@@ -679,14 +733,15 @@
       <!-- ready to join section end  -->
 
       <!-- student section start  -->
-      <section>
+      <section id="students">
         <div
-          class="flex justify-center items-center flex-col text-center gap-2 p-5"
+          class="flex justify-center items-center md:items-start md:text-start flex-col text-center gap-2 p-5 md:pl-0 md:py-10 md:pr-48"
         >
-          <h2 class="text-2xl font-bold">Meet Our Successfull Students</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration.
+          <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold">
+            Meet Our Successfull Students
+          </h2>
+          <p class="lg:text-xl">
+            These are the students who have succeeded in their life . They are now working in big big companies . we are proud they have graduated from us.
           </p>
         </div>
 
@@ -793,19 +848,69 @@
       <!-- student section end  -->
 
       <!-- rating section start  -->
-      <section>
+      <section id="ratings">
+        <!-- rating section title  -->
         <div
-          class="flex justify-center items-center flex-col text-center gap-2 p-5"
+          class="flex justify-center items-center flex-col text-center gap-2 p-5 md:p-10 lg:px-20"
         >
-          <h2 class="text-2xl font-bold">Some Students Feedback</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum It is a long
-            established fact that a reader will be distracted by the readable
-            content of a page when looking at its layout.
+          <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold">
+            Some Students Feedback
+          </h2>
+          <p class="lg:text-xl">
+            These are the students who completed our courses. and gave their
+            rating here. please read ratings below.They are 100% genuine not
+            fake . they are now doing their job peacefully in a very best
+            companies
           </p>
         </div>
         <!-- rating cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 relative">
+          <!-- show buttons  -->
+          <div
+            class="hidden lg:flex justify-between items-center absolute z-20 w-full h-full"
+          >
+            <button
+              type="button"
+              class="-ml-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M15 19l-7-7 7-7"
+                />
+              </svg>
+
+              <span class="sr-only">Icon description</span>
+            </button>
+            <button
+              type="button"
+              class="-mr-5 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center mr-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-6 w-6"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                stroke-width="2"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+              <span class="sr-only">Icon description</span>
+            </button>
+          </div>
           <!-- rating card one  -->
           <div
             class="p-5 flex flex-col gap-5 shadow-md border dark:bg-gray-800 dark:text-white"
@@ -988,10 +1093,10 @@
           </div>
         </div>
         <!-- button  -->
-        <div class="text-center mt-5">
+        <div class="text-center mt-5 lg:hidden">
           <button
             type="button"
-            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+            class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm md:text-md lg:text-xl px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
           >
             View All
           </button>
@@ -1003,12 +1108,15 @@
       <section>
         <!-- question section title  -->
         <div
-          class="flex justify-center items-center flex-col text-center gap-2 p-5"
+          class="flex justify-center items-center flex-col text-center gap-2 p-5 md:p-10 lg:px-20"
         >
-          <h2 class="text-2xl font-bold">Freequently Asked Questions</h2>
-          <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration
+          <h2 class="text-2xl md:text-3xl lg:text-5xl font-bold">
+            Freequently Asked Questions
+          </h2>
+          <p class="lg:text-xl">
+            These are the questions asked by the students most. please read the
+            questions and answer carefully . then you won't need to call us. for
+            silly questions.
           </p>
         </div>
         <!-- accordions  -->
@@ -1240,6 +1348,23 @@
         </div>
       </section>
       <!-- questions section end  -->
+
+      <!-- brands sections -->
+      <section class="lg:flex flex-col justify-center hidden items-center gap-10">
+        <h2 class="text-5xl font-bold text-center capitalize">Trusted by over 800+ companies</h2>
+        <div class="flex justify-center items-center flex-wrap gap-10">
+          <img src="./images/company/company-1.png" alt="" /><img
+            src="./images/company/company-2.png"
+            alt=""
+          /><img src="./images/company/company-3.png" alt="" /><img
+            src="./images/company/company-4.png"
+            alt=""
+          /><img src="./images/company/company-5.png" alt="" /><img
+            src="./images/company/company-6.png"
+            alt=""
+          />
+        </div>
+      </section>
     </main>
 
     <!-- all scripts tag here  -->
@@ -1250,7 +1375,11 @@
     <!-- flowbite cdn script  -->
     <script src="https://unpkg.com/flowbite@1.5.1/dist/flowbite.js"></script>
   </body>
-  <footer class="dark:bg-gray-800 p-10 shadow-lg border-slate-900 border shadow-slate-700">
+
+  <!-- footer  -->
+  <footer
+    class="dark:bg-gray-800 p-10 shadow-lg shadow-slate-700"
+  >
     <div class="container mx-auto flex flex-col gap-5">
       <!-- footer logo  -->
       <div class="flex justify-center items-center gap-2">
